@@ -18,7 +18,7 @@ public class GraphicsDemo extends JFrame{
 		g.setColor(Color.BLUE);
 		g.drawRect(60, 200, 100, 250);
 		g.setColor(Color.BLACK);
-		g.drawString("My name is James", 200, 400);
+		g.drawString("My name is Carl", 200, 400);
 	}
 	public static void main(String args[]) {
 		GraphicsDemo demo = new GraphicsDemo();
