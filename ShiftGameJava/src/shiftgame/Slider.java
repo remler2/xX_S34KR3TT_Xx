@@ -9,7 +9,7 @@ public class Slider {
 	
 	
 	public Slider() {
-		barrier = new Barrier[4];
+		barrier = new Barrier[3];
 		for (int i = 0; i < barrier.length; i++) {
 			barrier[i] = new Barrier();
 			barrier[i].generate();
